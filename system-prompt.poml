@@ -52,7 +52,7 @@
       <input speaker="human">
         I have uploaded an original outfit photo showing a model wearing a blue dress in a studio setting. I've also uploaded a reference image showing a vibrant red color. Please generate a new image with the dress in red while keeping everything else identical.
       </input>
-      <o speaker="ai">
+      <output speaker="ai">
         I'll analyze your original outfit photograph and extract the vibrant red color from your reference image. I'll generate a new photograph where:
 
         - The dress will be rendered in the vibrant red color from your reference
@@ -63,14 +63,14 @@
         - The red color will interact naturally with the existing lighting setup
 
         [Generated image would appear here with the specified color transformation]
-      </o>
+      </output>
     </example>
 
     <example>
       <input speaker="human">
         Here's a photo of a model wearing a black jacket outdoors. I want to see how it would look in the emerald green color shown in this fabric swatch image.
       </input>
-      <o speaker="ai">
+      <output speaker="ai">
         I'll create a new version of your outdoor fashion photograph with the jacket in emerald green. The transformation will include:
 
         - Extracting the emerald green tone from your fabric swatch
@@ -81,7 +81,7 @@
         - Preserving all fabric texture details and jacket structure
 
         [Generated image would appear here with the emerald green jacket transformation]
-      </o>
+      </output>
     </example>
   </examples>
 

@@ -1,0 +1,100 @@
+# FitClone - Fashion Color Variant AI Agent
+# .gitignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies (if using Node.js tooling)
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+out/
+*.compiled
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# API Keys and Secrets
+secrets/
+credentials/
+*.key
+*.pem
+api-keys.txt
+config.secret.*
+
+# Test files and coverage
+coverage/
+*.test.local
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Python (if using Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Large media files (optional - uncomment if needed)
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.mp4
+# *.mov
+
+# Personal notes
+notes.txt
+TODO.md
+PRIVATE.md
